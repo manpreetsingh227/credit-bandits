@@ -13,7 +13,8 @@ The project investigates how credit scoring models can remain robust when:
 - The relationship between features and repayment outcomes **changes over time** (*concept drift*), and  
 - Outcomes are **selectively observed only for approved loans** (*selective labels*).  
 
-It evaluates three adaptive learning strategies — **Online Gradient Descent (OGD)**, **Cumulative Refit (CF)**, and **Rolling Refit (RF)** — under both **full feedback (oracle)** and **partial feedback (bandit)** regimes, with and without **ε-greedy exploration**.
+It evaluates three adaptive learning strategies Online Gradient Descent (OGD), Cumulative Refit (CF), and Rolling Refit (RF) — under both full feedback (oracle) and partial feedback (bandit) regimes, with and without ε-greedy exploration.
+
 ---
 
 ## 🌟 Key Contributions
