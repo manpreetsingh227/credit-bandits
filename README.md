@@ -5,11 +5,22 @@
 
 ---
 
-## Description
+## 📝 Overview
+This repository contains the full implementation accompanying my MSc thesis:  
+**_“Bandit-Based Approaches to Credit Risk Modelling under Drift and Selective Labels” (2025)_**.
 
-This repository contains the full pipeline for my MSc thesis.  
+The project investigates how credit scoring models can remain robust when:  
+- The relationship between features and repayment outcomes **changes over time** (*concept drift*), and  
+- Outcomes are **selectively observed only for approved loans** (*selective labels*).  
 
-The pipeline consists of preprocessing, feature selection, algorithm experiments (CF, OGD, RF), and analysis through notebooks.  
+It evaluates three adaptive learning strategies — **Online Gradient Descent (OGD)**, **Cumulative Refit (CF)**, and **Rolling Refit (RF)** — under both **full feedback (oracle)** and **partial feedback (bandit)** regimes, with and without **ε-greedy exploration**.
+---
+
+## 🌟 Key Contributions
+- Demonstrates empirically how standard online learning deteriorates under selective feedback.  
+- Implements a one-armed contextual bandit framework for credit approval.  
+- Evaluates exploration strategies to mitigate selection bias under drift.  
+- Provides a reproducible experimental pipeline and analysis using real-world credit risk data.    
 
 ---
 ## 📂 Repository Structure
