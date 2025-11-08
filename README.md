@@ -7,7 +7,7 @@
 
 ## 📝 Overview
 This repository contains the full implementation accompanying my MSc thesis:  
-**_“Bandit-Based Approaches to Credit Risk Modelling under Drift and Selective Labels” (2025)_**.
+**Bandit-Based Approaches to Credit Risk Modelling under Drift and Selective Labels**.
 
 The project investigates how credit scoring models can remain robust when:  
 - The relationship between features and repayment outcomes **changes over time** (*concept drift*), and  
